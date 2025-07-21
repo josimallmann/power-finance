@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">546263303367</string>
+    <string name="google_api_key" translatable="false">AIzaSyAeKoxjs4mnXaKlZFVJkCNFG1IY1r8JX4I</string>
+    <string name="google_app_id" translatable="false">1:546263303367:android:16e7c8a9d5156d23af2ae2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAeKoxjs4mnXaKlZFVJkCNFG1IY1r8JX4I</string>
+    <string name="google_storage_bucket" translatable="false">power-finance-d3ea7.firebasestorage.app</string>
+    <string name="project_id" translatable="false">power-finance-d3ea7</string>
+</resources>

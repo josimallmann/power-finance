@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#FF000000</color>
+    <string name="app_name">Power Finance</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="gcm_defaultSenderId" translatable="false">546263303367</string>
+    <string name="google_api_key" translatable="false">AIzaSyAeKoxjs4mnXaKlZFVJkCNFG1IY1r8JX4I</string>
+    <string name="google_app_id" translatable="false">1:546263303367:android:16e7c8a9d5156d23af2ae2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAeKoxjs4mnXaKlZFVJkCNFG1IY1r8JX4I</string>
+    <string name="google_storage_bucket" translatable="false">power-finance-d3ea7.firebasestorage.app</string>
+    <string name="login">Login</string>
+    <string name="project_id" translatable="false">power-finance-d3ea7</string>
+    <string name="register">Register</string>
+    <style name="PowerFinanceActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">#FF000000</item>
+        <item name="android:titleTextStyle">@style/PowerFinanceActionBarTitle</item>
+    </style>
+    <style name="PowerFinanceActionBarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#FF000000</item>
+    </style>
+    <style name="Theme.PowerFinance" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#00796B</item>
+        <item name="colorPrimaryVariant">#FF000000</item>
+        <item name="colorOnPrimary">#FF000000</item>
+        <item name="colorSecondary">#FF000000</item>
+        <item name="colorSecondaryVariant">#FF000000</item>
+        <item name="colorOnSecondary">#FF000000</item>
+        <item name="android:statusBarColor">#FF000000</item>
+        <item name="android:windowBackground">#FF000000</item>
+        <item name="android:actionBarStyle">@style/PowerFinanceActionBar</item>
+    </style>
+</resources>

@@ -1,0 +1,58 @@
+// C:\git\power-finance\app\build.gradle (Arquivo do módulo do aplicativo)
+
+plugins {
+    // ESTES PLUGINS SÃO ESSENCIAIS E DEVEM ESTAR AQUI NO TOPO:
+    id 'com.android.application' // Define que este é um módulo de aplicativo Android
+    id 'com.google.gms.google-services' // Mantenha se você usa Firebase
+}
+
+android {
+    namespace 'com.powerfinance.app' // Verifique se este é o seu namespace correto
+    compileSdk 34 // Versão do SDK para compilar. Mantenha 34 ou a que você usa.
+
+    defaultConfig {
+        applicationId "com.powerfinance.app" // ID único do seu aplicativo
+        minSdk 24 // Versão mínima do Android suportada
+        targetSdk 34 // Versão do Android que seu app foi testado
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        // Define a compatibilidade da linguagem Java
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    // REMOVEMOS O BLOCO kotlinOptions{} POIS VOCÊ NÃO USA KOTLIN
+}
+
+dependencies {
+    // Dependências padrão do Android (AndroidX) e Material Design
+    // Estas são CRUCIAIS para os estilos e atributos que estavam faltando.
+    implementation 'androidx.appcompat:appcompat:1.7.0' // Fornece Widget.AppCompat.ActionBar, Theme.AppCompat, etc.
+    implementation 'com.google.android.material:material:1.12.0' // Fornece Theme.MaterialComponents.DayNight e attrs de cor (colorPrimary, etc.)
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4' // Se você usa ConstraintLayout, mantenha esta.
+
+    // Dependências de teste
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+
+    // Se você usa Firebase, adicione as dependências específicas aqui.
+    // O 'firebase-bom' ajuda a gerenciar as versões do Firebase.
+    implementation platform('com.google.firebase:firebase-bom:33.1.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    // Adicione outras dependências do Firebase que você precisa, por exemplo:
+    // implementation 'com.google.firebase:firebase-auth'
+    // implementation 'com.google.firebase:firebase-firestore'
+    // implementation 'com.google.firebase:firebase-database'
+    // etc.
+}

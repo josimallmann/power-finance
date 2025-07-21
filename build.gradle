@@ -1,0 +1,28 @@
+// C:\git\power-finance\build.gradle (Arquivo de nível superior do projeto)
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Plugin do Android Gradle - ESSENCIAL para construir apps Android
+        classpath 'com.android.tools.build:gradle:8.2.2'
+        // Plugin do Google Services - MANTENHA ESTE se você usa Firebase ou outras APIs do Google
+        classpath 'com.google.gms:google-services:4.4.1'
+        // NENHUMA DEPENDÊNCIA DE 'implementation' DEVE IR AQUI.
+        // Apenas 'classpath' para plugins do Gradle.
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+// Esta é uma tarefa de limpeza padrão, geralmente presente.
+tasks.register('clean', Delete) {
+    delete rootProject.buildDir
+}

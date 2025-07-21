@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "546263303367",
+    "project_id": "power-finance-d3ea7",
+    "storage_bucket": "power-finance-d3ea7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546263303367:android:16e7c8a9d5156d23af2ae2",
+        "android_client_info": {
+          "package_name": "com.powerfinance.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeKoxjs4mnXaKlZFVJkCNFG1IY1r8JX4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

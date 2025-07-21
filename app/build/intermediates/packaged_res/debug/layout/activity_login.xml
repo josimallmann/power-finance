@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarLogin"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#00796B"
+        app:title="Login"
+        app:titleTextColor="#FFFFFF"
+        android:elevation="4dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical">
+
+            <!-- Logo/Ícone do aplicativo para a tela de Login -->
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@mipmap/logo"
+                android:contentDescription="Logo do Aplicativo"
+                android:layout_marginBottom="32dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bem-vindo de volta!"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#00796B"
+                android:layout_marginBottom="24dp" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Email"
+                android:drawableStart="@drawable/ic_user"
+                android:drawablePadding="12dp"
+                android:background="@drawable/rounded_input"
+                android:padding="12dp"
+                android:layout_marginBottom="16dp"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Senha"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawablePadding="12dp"
+                android:background="@drawable/rounded_input"
+                android:padding="12dp"
+                android:inputType="textPassword"
+                android:layout_marginBottom="32dp" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Entrar"
+                android:textColor="#FFFFFF" 
+                android:textSize="18sp"
+                android:background="@drawable/rounded_button" 
+                app:cornerRadius="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Não tem uma conta?"
+                android:textColor="#555555"
+                android:layout_marginTop="24dp" />
+
+            <TextView
+                android:id="@+id/tvGoToRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cadastre-se!"
+                android:textColor="#00796B"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:padding="4dp"
+                android:background="?attr/selectableItemBackground" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

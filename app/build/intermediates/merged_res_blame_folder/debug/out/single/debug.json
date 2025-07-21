@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/drawable_rounded_button.xml.flat",
+        "source": "com.powerfinance.app-main-39:/drawable/rounded_button.xml"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.powerfinance.app-main-39:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.powerfinance.app-main-39:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/drawable_ic_user.png.flat",
+        "source": "com.powerfinance.app-main-39:/drawable/ic_user.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/drawable_ic_google.png.flat",
+        "source": "com.powerfinance.app-main-39:/drawable/ic_google.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/layout_activity_login.xml.flat",
+        "source": "com.powerfinance.app-main-39:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/mipmap-xhdpi_logo.png.flat",
+        "source": "com.powerfinance.app-main-39:/mipmap-xhdpi/logo.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.powerfinance.app-main-39:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/drawable_rounded_input.xml.flat",
+        "source": "com.powerfinance.app-main-39:/drawable/rounded_input.xml"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.powerfinance.app-main-39:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/mipmap-xxxhdpi_logo.png.flat",
+        "source": "com.powerfinance.app-main-39:/mipmap-xxxhdpi/logo.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.powerfinance.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/mipmap-xxhdpi_logo.png.flat",
+        "source": "com.powerfinance.app-main-39:/mipmap-xxhdpi/logo.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/drawable_ic_lock.png.flat",
+        "source": "com.powerfinance.app-main-39:/drawable/ic_lock.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.powerfinance.app-main-39:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/drawable_ic_email.png.flat",
+        "source": "com.powerfinance.app-main-39:/drawable/ic_email.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.powerfinance.app-main-39:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.powerfinance.app-main-39:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/drawable_ic_welcome.png.flat",
+        "source": "com.powerfinance.app-main-39:/drawable/ic_welcome.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/mipmap-hdpi_logo.png.flat",
+        "source": "com.powerfinance.app-main-39:/mipmap-hdpi/logo.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/layout_activity_dashboard.xml.flat",
+        "source": "com.powerfinance.app-main-39:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.powerfinance.app-main-39:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.powerfinance.app-main-39:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.powerfinance.app-main-39:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/drawable_fundo_welcome.png.flat",
+        "source": "com.powerfinance.app-main-39:/drawable/fundo_welcome.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/mipmap-mdpi_logo.png.flat",
+        "source": "com.powerfinance.app-main-39:/mipmap-mdpi/logo.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/layout_activity_register.xml.flat",
+        "source": "com.powerfinance.app-main-39:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.powerfinance.app-main-39:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/drawable_ic_user_copy.png.flat",
+        "source": "com.powerfinance.app-main-39:/drawable/ic_user_copy.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/layout_activity_welcome.xml.flat",
+        "source": "com.powerfinance.app-main-39:/layout/activity_welcome.xml"
+    }
+]
