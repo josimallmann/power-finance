@@ -49,6 +49,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:hint="Email"
+                android:textColorHint="#00796B"
+                android:textColor="#00796B"
                 android:drawableStart="@drawable/ic_user"
                 android:drawablePadding="12dp"
                 android:background="@drawable/rounded_input"
@@ -61,6 +63,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:hint="Senha"
+                android:textColorHint="#00796B"
+                android:textColor="#00796B"
                 android:drawableStart="@drawable/ic_lock"
                 android:drawablePadding="12dp"
                 android:background="@drawable/rounded_input"
@@ -73,9 +77,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:text="Entrar"
-                android:textColor="#FFFFFF" 
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
-                android:background="@drawable/rounded_button" 
+                android:background="@drawable/rounded_button"
                 app:cornerRadius="8dp" />
 
             <TextView
@@ -95,6 +99,17 @@
                 android:textSize="16sp"
                 android:padding="4dp"
                 android:background="?attr/selectableItemBackground" />
+<TextView
+    android:id="@+id/tvForgotPassword"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Esqueci minha senha"
+    android:textColor="#00796B"
+    android:layout_marginTop="16dp"
+    android:layout_gravity="center_horizontal"
+    android:clickable="true"
+    android:focusable="true" />
+
 
         </LinearLayout>
     </ScrollView>

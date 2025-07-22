@@ -25,6 +25,10 @@
             </intent-filter>
         </activity>
 
+<activity android:name=".view.ForgotPasswordActivity" />
+
+<activity android:name=".view.ExpenseActivity" />
+
         <activity android:name=".MainActivity"
             android:exported="true" />
 

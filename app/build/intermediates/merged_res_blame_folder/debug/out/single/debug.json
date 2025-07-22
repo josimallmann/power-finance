@@ -36,6 +36,10 @@
         "source": "com.powerfinance.app-main-39:/drawable/rounded_input.xml"
     },
     {
+        "merged": "com.powerfinance.app-merged_res-37:/layout_activity_expense.xml.flat",
+        "source": "com.powerfinance.app-main-39:/layout/activity_expense.xml"
+    },
+    {
         "merged": "com.powerfinance.app-merged_res-37:/mipmap-mdpi_ic_launcher.png.flat",
         "source": "com.powerfinance.app-main-39:/mipmap-mdpi/ic_launcher.png"
     },
@@ -46,6 +50,10 @@
     {
         "merged": "com.powerfinance.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "com.powerfinance.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/layout_item_expense.xml.flat",
+        "source": "com.powerfinance.app-main-39:/layout/item_expense.xml"
     },
     {
         "merged": "com.powerfinance.app-merged_res-37:/mipmap-xxhdpi_logo.png.flat",
@@ -110,6 +118,10 @@
     {
         "merged": "com.powerfinance.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "com.powerfinance.app-main-39:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/layout_activity_forgot_password.xml.flat",
+        "source": "com.powerfinance.app-main-39:/layout/activity_forgot_password.xml"
     },
     {
         "merged": "com.powerfinance.app-merged_res-37:/drawable_ic_user_copy.png.flat",

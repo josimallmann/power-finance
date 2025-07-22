@@ -51,6 +51,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.powerfinance.app.view.ForgotPasswordActivity" />
+        <activity android:name="com.powerfinance.app.view.ExpenseActivity" />
         <activity
             android:name="com.powerfinance.app.MainActivity"
             android:exported="true" />

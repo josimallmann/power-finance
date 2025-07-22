@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\git\power-finance\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\git\power-finance\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\git\power-finance\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\git\power-finance\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from C:\git\power-finance\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\git\power-finance\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\git\power-finance\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\git\power-finance\app\src\main\AndroidManifest.xml:2:1-37:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\JosiS\.gradle\caches\8.14.3\transforms\dbda8706c677f87c2d13e7696ed13bbf\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\JosiS\.gradle\caches\8.14.3\transforms\5413827db5da83b6e0fd5017b84dbb0f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\JosiS\.gradle\caches\8.14.3\transforms\86dd8ce9387af681198fdcf617acc87a\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -75,8 +75,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\JosiS\.
 	xmlns:android
 		ADDED from C:\git\power-finance\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\git\power-finance\app\src\main\AndroidManifest.xml:5:5-31:19
-INJECTED from C:\git\power-finance\app\src\main\AndroidManifest.xml:5:5-31:19
+ADDED from C:\git\power-finance\app\src\main\AndroidManifest.xml:5:5-35:19
+INJECTED from C:\git\power-finance\app\src\main\AndroidManifest.xml:5:5-35:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\JosiS\.gradle\caches\8.14.3\transforms\dbda8706c677f87c2d13e7696ed13bbf\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\JosiS\.gradle\caches\8.14.3\transforms\dbda8706c677f87c2d13e7696ed13bbf\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\JosiS\.gradle\caches\8.14.3\transforms\5413827db5da83b6e0fd5017b84dbb0f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -177,12 +177,20 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\git\power-finance\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
 		ADDED from C:\git\power-finance\app\src\main\AndroidManifest.xml:24:27-74
-activity#com.powerfinance.app.MainActivity
-ADDED from C:\git\power-finance\app\src\main\AndroidManifest.xml:28:9-29:39
-	android:exported
-		ADDED from C:\git\power-finance\app\src\main\AndroidManifest.xml:29:13-36
+activity#com.powerfinance.app.view.ForgotPasswordActivity
+ADDED from C:\git\power-finance\app\src\main\AndroidManifest.xml:28:1-57
 	android:name
-		ADDED from C:\git\power-finance\app\src\main\AndroidManifest.xml:28:19-47
+		ADDED from C:\git\power-finance\app\src\main\AndroidManifest.xml:28:11-54
+activity#com.powerfinance.app.view.ExpenseActivity
+ADDED from C:\git\power-finance\app\src\main\AndroidManifest.xml:30:1-50
+	android:name
+		ADDED from C:\git\power-finance\app\src\main\AndroidManifest.xml:30:11-47
+activity#com.powerfinance.app.MainActivity
+ADDED from C:\git\power-finance\app\src\main\AndroidManifest.xml:32:9-33:39
+	android:exported
+		ADDED from C:\git\power-finance\app\src\main\AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from C:\git\power-finance\app\src\main\AndroidManifest.xml:32:19-47
 uses-sdk
 INJECTED from C:\git\power-finance\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\git\power-finance\app\src\main\AndroidManifest.xml

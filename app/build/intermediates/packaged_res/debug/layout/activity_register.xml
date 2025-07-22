@@ -1,81 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E0F7FA">
+    android:orientation="vertical"
+    android:background="#FFFFFF">
 
-    <LinearLayout
+    <!-- Toolbar superior -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarRegister"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="32dp"
-        android:gravity="center">
+        android:layout_height="?attr/actionBarSize"
+        android:background="#00796B"
+        app:title="Cadastro"
+        app:titleTextColor="#FFFFFF"
+        android:elevation="4dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Signup"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:textColor="#00796B"
-            android:layout_marginBottom="24dp" />
+    <!-- Conteúdo rolável -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-        <EditText
-            android:id="@+id/etEmail"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:hint="Email"
-            android:drawableStart="@drawable/ic_email"
-            android:background="@drawable/rounded_input"
-            android:padding="12dp"
-            android:layout_marginBottom="16dp" />
-
-        <EditText
-            android:id="@+id/etPassword"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:hint="Password"
-            android:drawableStart="@drawable/ic_lock"
-            android:background="@drawable/rounded_input"
-            android:padding="12dp"
-            android:inputType="textPassword"
-            android:layout_marginBottom="16dp" />
-
-        <EditText
-            android:id="@+id/etConfirmPassword"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:hint="Confirm Password"
-            android:drawableStart="@drawable/ic_lock"
-            android:background="@drawable/rounded_input"
-            android:padding="12dp"
-            android:inputType="textPassword"
-            android:layout_marginBottom="24dp" />
-
-        <Button
-            android:id="@+id/btnRegister"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:text="Sign Up"
-            android:backgroundTint="#00796B"
-            android:textColor="#FFFFFF"
-            android:layout_marginBottom="16dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Try Sign Up With Other Ways"
-            android:textColor="#555555"
-            android:layout_marginBottom="8dp" />
-
-        <!-- Rede social icones: você pode usar ImageButtons -->
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:gravity="center_horizontal">
 
-            <ImageButton android:src="@drawable/ic_google" android:background="@android:color/transparent"
-                android:layout_width="48dp" android:layout_height="48dp" />
+            <!-- Logo -->
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@mipmap/logo"
+                android:contentDescription="Logo do Aplicativo"
+                android:layout_marginBottom="32dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crie sua conta"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#00796B"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Campos de entrada -->
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Email"
+                android:textColorHint="#00796B"
+                android:textColor="#00796B"
+                android:drawableStart="@drawable/ic_email"
+                android:drawablePadding="12dp"
+                android:background="@drawable/rounded_input"
+                android:padding="12dp"
+                android:layout_marginBottom="16dp"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Senha"
+                android:textColorHint="#00796B"
+                android:textColor="#00796B"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawablePadding="12dp"
+                android:background="@drawable/rounded_input"
+                android:padding="12dp"
+                android:inputType="textPassword"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/etConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Confirmar Senha"
+                android:textColorHint="#00796B"
+                android:textColor="#00796B"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawablePadding="12dp"
+                android:background="@drawable/rounded_input"
+                android:padding="12dp"
+                android:inputType="textPassword"
+                android:layout_marginBottom="32dp" />
+
+            <!-- Botão de cadastro -->
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Cadastrar"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:background="@drawable/rounded_button"
+                app:cornerRadius="8dp" />
+
+            <!-- Link para login -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Já tem uma conta?"
+                android:textColor="#555555"
+                android:layout_marginTop="24dp" />
+
+            <TextView
+                android:id="@+id/tvGoToLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entrar"
+                android:textColor="#00796B"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:padding="4dp"
+                android:background="?attr/selectableItemBackground" />
+
         </LinearLayout>
-    </LinearLayout>
-</ScrollView>
+    </ScrollView>
+</LinearLayout>
