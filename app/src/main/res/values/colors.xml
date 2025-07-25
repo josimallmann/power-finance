@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
+    <color name="md_theme_primary">#00796B</color>
+    <color name="md_theme_colorPrimaryVariant">#004D40</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
 
-    <color name="ic_launcher_background">#FF000000</color>
+    <color name="md_theme_secondary">#FF5722</color>
+    <color name="md_theme_onSecondary">#333333</color>
 
-    </resources>
+    <color name="md_theme_background">#333333</color>
+    <color name="md_theme_onSurface">#333333</color>
+
+    <color name="md_theme_error">#B00020</color>
+    <color name="md_theme_onError">#FFFFFF</color>
+
+    <color name="ic_launcher_background">#FFFFFF</color> 
+    <color name="white">#FFFFFF</color> 
+</resources>

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout 
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
+    android:id="@+id/layoutExpense"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF">
+    android:background="@android:color/white">
+
+    <!-- Toolbar preenchendo toda a largura corretamente -->
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarExpense"
@@ -13,78 +15,44 @@
         android:layout_height="?attr/actionBarSize"
         android:background="#00796B"
         app:title="Despesas"
-        app:titleTextColor="#FFFFFF"
-        android:elevation="4dp" />
+        app:titleTextColor="#FFFFFF" />
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fillViewport="true">
+    <!-- RecyclerView para mostrar despesas -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvExpenses"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/tvTotalPagar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="24dp"
-            android:gravity="center_horizontal">
+    <!-- TextView Total a pagar -->
+    <TextView
+        android:id="@+id/tvTotalPagar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Total a pagar: R$ 0,00"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@id/tvPago"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-            <!-- Campos para cadastro de despesas -->
-            <EditText
-                android:id="@+id/etExpenseTitle"
-                android:layout_width="match_parent"
-                android:layout_height="56dp"
-                android:hint="Título da Despesa"
-                android:background="@drawable/rounded_input"
-                android:padding="16dp"
-                android:layout_marginBottom="16dp" />
+    <!-- TextView Total pago -->
+    <TextView
+        android:id="@+id/tvPago"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Pago: R$ 0,00"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp" />
 
-            <EditText
-                android:id="@+id/etExpenseAmount"
-                android:layout_width="match_parent"
-                android:layout_height="56dp"
-                android:hint="Valor (R$)"
-                android:inputType="numberDecimal"
-                android:background="@drawable/rounded_input"
-                android:padding="16dp"
-                android:layout_marginBottom="16dp" />
-
-            <EditText
-                android:id="@+id/etExpenseDate"
-                android:layout_width="match_parent"
-                android:layout_height="56dp"
-                android:hint="Data (DD/MM/AAAA)"
-                android:inputType="date"
-                android:background="@drawable/rounded_input"
-                android:padding="16dp"
-                android:layout_marginBottom="24dp" />
-
-            <Button
-                android:id="@+id/btnSaveExpense"
-                android:layout_width="match_parent"
-                android:layout_height="56dp"
-                android:text="Salvar Despesa"
-                android:textColor="#FFFFFF"
-                android:background="@drawable/rounded_button"
-                android:textSize="18sp"
-                android:layout_marginBottom="32dp" />
-
-            <!-- Lista para visualizar despesas cadastradas -->
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Despesas Cadastradas"
-                android:textSize="20sp"
-                android:textColor="#00796B"
-                android:textStyle="bold"
-                android:layout_marginBottom="16dp" />
-
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rvExpenses"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:nestedScrollingEnabled="false" />
-
-        </LinearLayout>
-    </ScrollView>
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,28 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout 
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:padding="16dp"
-    android:gravity="center_vertical"
-    android:background="?attr/selectableItemBackground">
+    android:background="@drawable/table_cell_background_data"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
 
     <TextView
-        android:id="@+id/tvDescription"
+        android:id="@+id/tvItemDescription"
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="wrap_content"
-        android:text="Descrição"
-        android:textSize="16sp"
-        android:textColor="#000000" />
+        android:gravity="center"
+        android:text="Aluguel"
+        android:textColor="#333333"
+        android:textSize="14sp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"/>
 
     <TextView
-        android:id="@+id/tvAmount"
-        android:layout_width="wrap_content"
+        android:id="@+id/tvItemAmount"
+        android:layout_width="0dp"
+        android:layout_weight="1"
         android:layout_height="wrap_content"
-        android:text="R$ 0,00"
-        android:textSize="16sp"
-        android:textColor="#00796B" />
+        android:gravity="center"
+        android:text="R$ 1.200,00"
+        android:textColor="#333333"
+        android:textSize="14sp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"/>
 
+    <TextView
+        android:id="@+id/tvItemDueDate"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="20/07/2025"
+        android:textColor="#333333"
+        android:textSize="14sp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"/>
 </LinearLayout>

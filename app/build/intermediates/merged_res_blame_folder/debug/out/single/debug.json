@@ -44,8 +44,16 @@
         "source": "com.powerfinance.app-main-39:/mipmap-mdpi/ic_launcher.png"
     },
     {
+        "merged": "com.powerfinance.app-merged_res-37:/layout_activity_main.xml.flat",
+        "source": "com.powerfinance.app-main-39:/layout/activity_main.xml"
+    },
+    {
         "merged": "com.powerfinance.app-merged_res-37:/mipmap-xxxhdpi_logo.png.flat",
         "source": "com.powerfinance.app-main-39:/mipmap-xxxhdpi/logo.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/drawable_ic_arrow_right.xml.flat",
+        "source": "com.powerfinance.app-main-39:/drawable/ic_arrow_right.xml"
     },
     {
         "merged": "com.powerfinance.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
@@ -76,6 +84,18 @@
         "source": "com.powerfinance.app-main-39:/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "com.powerfinance.app-merged_res-37:/drawable_ic_arrow_left.xml.flat",
+        "source": "com.powerfinance.app-main-39:/drawable/ic_arrow_left.xml"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/drawable_ic_add.xml.flat",
+        "source": "com.powerfinance.app-main-39:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/drawable_table_header_background.xml.flat",
+        "source": "com.powerfinance.app-main-39:/drawable/table_header_background.xml"
+    },
+    {
         "merged": "com.powerfinance.app-merged_res-37:/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "com.powerfinance.app-main-39:/mipmap-xxhdpi/ic_launcher.png"
     },
@@ -94,6 +114,10 @@
     {
         "merged": "com.powerfinance.app-merged_res-37:/mipmap-hdpi_ic_launcher.png.flat",
         "source": "com.powerfinance.app-main-39:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/layout_activity_select_month_year.xml.flat",
+        "source": "com.powerfinance.app-main-39:/layout/activity_select_month_year.xml"
     },
     {
         "merged": "com.powerfinance.app-merged_res-37:/mipmap-mdpi_ic_launcher_round.png.flat",
@@ -120,12 +144,20 @@
         "source": "com.powerfinance.app-main-39:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
+        "merged": "com.powerfinance.app-merged_res-37:/drawable_table_cell_background_data.xml.flat",
+        "source": "com.powerfinance.app-main-39:/drawable/table_cell_background_data.xml"
+    },
+    {
         "merged": "com.powerfinance.app-merged_res-37:/layout_activity_forgot_password.xml.flat",
         "source": "com.powerfinance.app-main-39:/layout/activity_forgot_password.xml"
     },
     {
         "merged": "com.powerfinance.app-merged_res-37:/drawable_ic_user_copy.png.flat",
         "source": "com.powerfinance.app-main-39:/drawable/ic_user_copy.png"
+    },
+    {
+        "merged": "com.powerfinance.app-merged_res-37:/drawable_table_cell_background.xml.flat",
+        "source": "com.powerfinance.app-main-39:/drawable/table_cell_background.xml"
     },
     {
         "merged": "com.powerfinance.app-merged_res-37:/layout_activity_welcome.xml.flat",

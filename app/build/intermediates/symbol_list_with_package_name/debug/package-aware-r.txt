@@ -1361,7 +1361,6 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
-color black
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -2024,6 +2023,15 @@ color material_timepicker_button_stroke
 color material_timepicker_clock_text_color
 color material_timepicker_clockface
 color material_timepicker_modebutton_tint
+color md_theme_background
+color md_theme_colorPrimaryVariant
+color md_theme_error
+color md_theme_onError
+color md_theme_onPrimary
+color md_theme_onSecondary
+color md_theme_onSurface
+color md_theme_primary
+color md_theme_secondary
 color mtrl_btn_bg_color_selector
 color mtrl_btn_ripple_color
 color mtrl_btn_stroke_color_selector
@@ -2103,6 +2111,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -3001,7 +3010,10 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable fundo_welcome
+drawable ic_add
 drawable ic_arrow_back_black_24
+drawable ic_arrow_left
+drawable ic_arrow_right
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video
@@ -3100,6 +3112,9 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable rounded_button
 drawable rounded_input
+drawable table_cell_background
+drawable table_cell_background_data
+drawable table_header_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3204,7 +3219,6 @@ id bounceStart
 id btnLogin
 id btnRecover
 id btnRegister
-id btnSaveExpense
 id buttonLogin
 id buttonPanel
 id cache_measures
@@ -3291,9 +3305,6 @@ id enterAlwaysCollapsed
 id escape
 id etConfirmPassword
 id etEmail
-id etExpenseAmount
-id etExpenseDate
-id etExpenseTitle
 id etPassword
 id etRecoveryEmail
 id exitUntilCollapsed
@@ -3350,6 +3361,7 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id layoutExpense
 id left
 id leftToRight
 id legacy
@@ -3526,6 +3538,8 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id spinnerMonth
+id spinnerYear
 id spline
 id split_action_bar
 id spread
@@ -3605,11 +3619,14 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tvAmount
-id tvDescription
 id tvForgotPassword
 id tvGoToLogin
 id tvGoToRegister
+id tvItemAmount
+id tvItemDescription
+id tvItemDueDate
+id tvPago
+id tvTotalPagar
 id unchecked
 id uniform
 id unlabeled
@@ -3753,7 +3770,9 @@ layout activity_dashboard
 layout activity_expense
 layout activity_forgot_password
 layout activity_login
+layout activity_main
 layout activity_register
+layout activity_select_month_year
 layout activity_welcome
 layout custom_dialog
 layout design_bottom_navigation_item

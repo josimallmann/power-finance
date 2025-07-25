@@ -6,7 +6,6 @@
     android:orientation="vertical"
     android:background="#FFFFFF">
 
-    <!-- Toolbar superior -->
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarRegister"
         android:layout_width="match_parent"
@@ -16,7 +15,6 @@
         app:titleTextColor="#FFFFFF"
         android:elevation="4dp" />
 
-    <!-- Conteúdo rolável -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -26,10 +24,8 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="24dp"
-            android:gravity="center_horizontal">
-
-            <!-- Logo -->
-            <ImageView
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical"> <ImageView
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:src="@mipmap/logo"
@@ -45,7 +41,6 @@
                 android:textColor="#00796B"
                 android:layout_marginBottom="24dp" />
 
-            <!-- Campos de entrada -->
             <EditText
                 android:id="@+id/etEmail"
                 android:layout_width="match_parent"
@@ -88,7 +83,6 @@
                 android:inputType="textPassword"
                 android:layout_marginBottom="32dp" />
 
-            <!-- Botão de cadastro -->
             <Button
                 android:id="@+id/btnRegister"
                 android:layout_width="match_parent"
@@ -99,7 +93,6 @@
                 android:background="@drawable/rounded_button"
                 app:cornerRadius="8dp" />
 
-            <!-- Link para login -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
